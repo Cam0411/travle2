@@ -471,6 +471,7 @@ appearance: none;
 cursor: pointer;
     background: #fff;
     -moz-appearance: none;
+    -webkit-appearance: none;
 }
 .search__box-login
 {
