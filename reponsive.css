@@ -1,0 +1,418 @@
+@media (max-width:600px){
+    .header__icon 
+    {
+        display: block;
+        background:rgba(54, 19, 84, .6) ;
+    }
+    .header__icon-flex 
+    {
+        display: none;
+    }
+    .header__menu
+    {
+        display: none;
+    }
+    .header__search 
+    {
+       position: absolute;
+       right: 12%;
+       padding: 10px;
+       color: #ffff;
+       margin-top: 5px;
+       cursor: pointer;
+       transition: 0.4s;
+    }
+    .menu__tablet 
+    {
+        display: block;
+    }
+    #slider 
+    {
+        margin-top: -140px;
+        height: 120vh;
+    }
+    .slider__flex 
+    {
+        height: 900px;
+    }
+    .modal__content
+    {
+        width: 100%;
+    }
+    .slider__discover 
+{
+    color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.dis__font
+{
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+
+}
+.heading__travel 
+{
+    font-size: 20px;
+}
+
+.slider__explore
+{
+    width: 200px;
+}
+.search__1  
+{
+    display: none;
+}
+#content
+{
+    background: linear-gradient(to right, #fa9e1b ,#8d4fff );
+    height:1350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.search__moblie-box  
+{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.content__src-box 
+{
+    display: block;
+}
+.content__search__moblie-box 
+{
+    height: 650px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.form__input 
+{
+    padding: 10px;
+    width: 100%;
+}
+.heading__form 
+{
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.destination__box 
+{
+    width: 100%;
+    padding: 15px;
+    height: 46px;
+    outline: none;
+    border: none;
+}
+.check__box 
+{
+    padding: 15px;
+    height: 46px;
+    outline: none;
+    width: 100%;
+    border: none;
+}
+.form__input-2 
+{
+    width: 50%;
+}
+.select__box 
+{
+    
+    width: 100%;
+    padding: 15px;
+    height: 46px
+}
+.search__box-login
+{
+    color: #ffff;
+    padding: 15px 18px;
+    border-radius: 34px;
+     width:100%;
+    background: #31124b;
+    border: 2px solid #31124b;
+    cursor: pointer;
+    margin-top: 40px;
+
+    font-size: 16px;
+}
+.search__box-login:hover 
+{
+   opacity: 0.4;
+}
+.content__form-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content__tour 
+{
+    height: 1700px;
+}
+
+.tour__flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1700px;
+}
+
+.tour__all-txt 
+{
+       text-align: center;
+       margin-bottom: 20px;
+}
+.tour__heading 
+{
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.tour__about 
+{
+  
+    line-height: 28px;
+    font-size: 14px;
+}
+.tour__all-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     width: 100%;
+}
+.tour__date
+{
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fa9e1b;
+    padding: 8px 14px;
+    border-radius: 24px;
+    background: #fa9e1b;
+    font-size: 12px;
+    margin-bottom: 80px;
+}
+.tour__heading-box 
+{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.tour__about-box 
+{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.tour__icon 
+{
+    text-align: center;
+    color: #fa9e1b;
+     margin-bottom: 28%;
+}
+.tour__icon 
+{
+    text-align: center;
+    color: #fa9e1b;
+     margin-bottom: 22%;
+}
+.tour__box 
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 420px;
+}
+.tour__see-more 
+{
+    width: 100%;
+}
+.tour__date 
+{
+    width: 100%;
+}
+}
+
+@media (min-width:600px) and (max-width:1020px){
+    .header__menu
+    {
+        display: none;
+    }
+    .header__search 
+{
+   position: absolute;
+   right: 6%;
+   padding: 10px;
+   color: #ffff;
+   margin-top: 5px;
+   cursor: pointer;
+   transition: 0.4s;
+}
+.menu__tablet 
+{
+    display: block;
+}
+.slider__discover 
+{
+    color: #ffff;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    line-height: 80px;
+}
+.dis__font
+{
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+
+}
+.search__box-flex
+{
+    display: none;
+}
+.search__1  
+{
+    display: none;
+}
+.content__src-box 
+{
+    display: block;
+    margin-bottom: 40px;
+}
+#content
+{
+    height: 800px;
+}
+.form__input 
+{
+    padding: 10px;
+    width: 41%;
+}
+.heading__form 
+{
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.destination__box 
+{
+    width: 100%;
+    padding: 15px;
+    height: 46px;
+    outline: none;
+    border: none;
+}
+.check__box 
+{
+    padding: 15px;
+    height: 46px;
+    outline: none;
+    width: 100%;
+    border: none;
+}
+.form__input-2 
+{
+    width: 20%;
+}
+.select__box 
+{
+    
+    width: 100%;
+    padding: 15px;
+    height: 46px
+}
+.search__box-login
+{
+    color: #ffff;
+    padding: 15px 18px;
+    border-radius: 34px;
+     width:200px;
+    background: #31124b;
+    border: 2px solid #31124b;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: -54%;
+    font-size: 16px;
+}
+.search__box-login:hover 
+{
+   opacity: 0.4;
+}
+.content__form-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content__tour 
+{
+    height: 1600px;
+}
+
+.tour__flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1600px;
+}
+
+.tour__all-txt 
+{
+       text-align: center;
+       margin-bottom: 20px;
+}
+.tour__heading 
+{
+    margin-bottom: 10px;
+}
+.tour__about 
+{
+  
+    line-height: 28px;
+}
+.tour__all-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+}
+.tour__icon 
+{
+    text-align: center;
+    color: #fa9e1b;
+     margin-bottom: 22%;
+}
+.tour__box 
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: 420px;
+}
+.tour__see-more 
+{
+    width: 100%;
+}
+}
+@media(min-width:1021px){
+    .tour__about 
+{
+    width: 700px;
+}
+}
