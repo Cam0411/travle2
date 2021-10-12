@@ -467,11 +467,12 @@ appearance: none;
     width: 77px;
     padding: 15px;
     height: 46px;
+    -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
 cursor: pointer;
     background: #fff;
-    -moz-appearance: none;
-    -webkit-appearance: none;
+
 }
 .search__box-login
 {
